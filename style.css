@@ -6,6 +6,13 @@ body {
   background-image: linear-gradient(135deg, #fdfcfb 0%, #754bd7 100%);
   padding: 10px !important;
 }
+
+.outer{
+  background-color: white;
+  width: 800px;
+  height: auto;
+  margin: auto;
+}
 .top-header-agile {
   padding: 10px 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.18);
@@ -18,6 +25,10 @@ body {
 #spark-img {
   height: 40px;
   width: 40px;
+}
+
+.outer-container{
+  display: flex;
 }
 .nav-item {
   font-weight: bold;
@@ -53,13 +64,4 @@ body {
   margin: 30px;
 }
 
-.outer{
-  background-color: white;
-  width: 800px;
-  height: auto;
-  margin: auto;
-}
 
-.outer-container{
-  display: flex;
-}
